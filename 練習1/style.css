@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* common */
+
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+  /* color: #383E45 */
+}
+
+#header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0 auto;
+ /* padding: 4px; */
+}
+
+.wrapper {
+  padding: 0 32px;
+}
+
+.site-title {
+  padding: 10px 0;
+  line-height: 1px;
+}
+
+#header ul {
+  display: flex;
+}
+
+#header li {
+  margin-left: 30px;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* section */
+
+section {
+  margin: 0 64px;
+}
+.about {
+  text-align: center;
+}
+
+section h2 {
+  display:inline-block;
+  text-align: center;
+  padding-top: 64px;
+  font-size: 32px;
+  border-bottom: solid 1px;
+}
+
+.container {
+  text-align: center;
+  padding-top: 48px;
+}
+
+.container img {
+  border-radius: 100%;
+  /* text-align: center; */
+}
+
+.content {
+  text-align: left;
+}
+
+section h3 {
+  font-size: 16px;
+}
+
+.container P {
+  text-align: center;
+  padding-top: 16px;
+}
+
+#bicycle {
+  text-align: center;
+}
+
+#bicycle h2 {
+  padding: 80px 0 48px;
+  border-bottom: solid 1px black;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+.bicycle-1 h3 {
+  padding-top: 16px;
+}
+
+.bicycle-1 p {
+  padding: 16px 0 32px;
+}
+
+.bicycle-2 h3 {
+  padding-top: 16px;
+}
+
+.bicycle-2 p {
+  padding: 16px 0 32px;
+}
+
+
+.bicycle-3 h3 {
+  padding-top: 16px;
+}
+
+.bicycle-3 p {
+  padding-top: 16px;
+}
